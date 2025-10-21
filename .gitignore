@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Medical Imaging Data (too big for Git)
+*.nii
+*.nii.gz
+*.dcm
+*.dicom
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Auto-generated files
+dark_red.qss

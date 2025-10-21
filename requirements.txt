@@ -1,0 +1,7 @@
+numpy>=1.21.0
+nibabel>=3.2.0
+PyQt5>=5.15.0
+scipy>=1.7.0
+scikit-image>=0.18.0
+pydicom>=2.3.0
+tensorflow>=2.10.0
