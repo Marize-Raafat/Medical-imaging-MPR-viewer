@@ -5,7 +5,8 @@ A medical imaging application for Multi-Planar Reconstruction (MPR) with AI-powe
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-## 🎯 Features
+##  Features
+<img width="1917" height="1137" alt="viewer_interface" src="https://github.com/user-attachments/assets/7fcccd16-acc4-4fa1-8a36-b69aa7908944" />
 
 - **4 Synchronized Views**: Axial, Sagittal, Coronal, and Oblique planes
 - **Interactive Navigation**: Drag crosshairs to navigate through 3D volumes
@@ -14,7 +15,7 @@ A medical imaging application for Multi-Planar Reconstruction (MPR) with AI-powe
 - **Surface Boundary Mode**: Display 2D contours from segmentation masks
 - **ROI Export**: Save regions of interest as NIfTI files
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 ```bash
@@ -29,7 +30,7 @@ pip install -r requirements.txt
 python src/MPR_viewer_final.py
 ```
 
-## 📖 Usage
+##  Usage
 
 1. Click **"Load NIfTI"** or **"Load DICOM"** to open a medical image
 2. Drag the colored crosshairs to navigate
@@ -37,7 +38,7 @@ python src/MPR_viewer_final.py
 4. Click **"Predict Orientation"** to run AI classification
 5. Click **"Detect Organ"** (DICOM only) to identify anatomy
 
-## 🤖 AI Model
+##  AI Model
 
 The orientation prediction model requires:
 - `models/config.json` - Model architecture
@@ -45,13 +46,13 @@ The orientation prediction model requires:
 
 **Note**: Model files not included due to size.
 
-## 🛠️ Requirements
+##  Requirements
 
 - Python 3.8+
 - 8GB RAM minimum
 - GPU optional (CPU inference supported)
 
-## 📁 Project Structure
+##  Project Structure
 ```
 mpr-viewer/
 ├── src/                    # Source code
@@ -60,11 +61,11 @@ mpr-viewer/
 └── requirements.txt        # Python dependencies
 ```
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
-## 👤 Author
+##  Author
 
 **Marize Raafat**
 - GitHub: [@Marize-Raafat](https://github.com/Marize-Raafat)
