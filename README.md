@@ -20,7 +20,7 @@ A medical imaging application for Multi-Planar Reconstruction (MPR) with AI-powe
 ### Installation
 ```bash
 # Clone this repository
-git clone https://github.com/Marize-Raafat/mpr-viewer.git
+git clone https://github.com/Marize-Raafat/Medical-image-MPR-viewer.git
 cd mpr-viewer
 
 # Install dependencies
